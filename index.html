@@ -481,6 +481,11 @@
 
     <div class="modal-box is-hidden" data-modal>
       <div class="modal-content">
+        <button class="modal-button" type="button" data-modal-close>
+          <svg class="modal-svg" width="8" height="8">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form name="contact_form" class="form">
           <div class="label-container">
@@ -538,7 +543,7 @@
               value="true"
               class="checkbox-input visually-hidden"
             />
-            <label class="terms-label">
+            <label for="user-privacy" class="terms-label">
               I accept the terms and conditions of the<span class="terms-span"
                 ><svg class="check-svg" width="10" height="8">
                   <use href="./images/icons.svg#check-click"></use></svg></span
@@ -546,11 +551,6 @@
             </label>
           </div>
           <button class="form-button" type="submit">Send</button>
-          <button class="modal-button" type="button" data-modal-close>
-            <svg class="modal-svg" width="8" height="8">
-              <use href="./images/icons.svg#close-icon"></use>
-            </svg>
-          </button>
         </form>
       </div>
     </div>
